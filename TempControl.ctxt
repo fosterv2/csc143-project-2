@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TempControl
+comment0.text=\r\n\ The\ class\ TempControl\ is\ a\ child\ class\ of\ Unit\ and\ overrides\ the\ calcPrice\ method.\r\n\r\n\ @author\ Valerie\ Foster\r\n\ @version\ 1/16/2018\r\n
+comment1.params=width\ length\ height\ loc\ cust\ date\ price
+comment1.target=TempControl(double,\ double,\ double,\ Location,\ Customer,\ Date,\ double)
+comment1.text=\r\n\ The\ full\ constructor\ for\ objects\ of\ class\ Unit\r\n\ \r\n\ @param\ \ \ type\ \ \ \ \ \ \ \ the\ unit's\ type\r\n\ @param\ \ \ width\ \ \ \ \ \ \ the\ unit's\ width\r\n\ @param\ \ \ length\ \ \ \ \ \ the\ unit's\ length\r\n\ @param\ \ \ height\ \ \ \ \ \ the\ unit's\ height\r\n\ @param\ \ \ loc\ \ \ \ \ \ \ \ \ the\ location\ the\ unit\ is\ associated\ with\r\n\ @param\ \ \ cust\ \ \ \ \ \ \ \ the\ customer\ the\ unit\ is\ rented\ to\r\n\ @param\ \ \ date\ \ \ \ \ \ \ \ the\ date\ the\ unit\ was\ rented\ to\ a\ customer\r\n\ @param\ \ \ price\ \ \ \ \ \ \ the\ price\ that\ the\ unit\ is\ rented\ at\r\n\ @throws\ \ IllegalArgumentException\ if\ the\ width\ is\ negative\r\n\ @throws\ \ IllegalArgumentException\ if\ the\ length\ is\ negative\r\n\ @throws\ \ IllegalArgumentException\ if\ the\ height\ is\ negative\r\n\ @throws\ \ IllegalArgumentException\ if\ the\ loc\ is\ null\r\n\ @throws\ \ IllegalArgumentException\ if\ the\ price\ is\ neagtive\r\n
+comment2.params=width\ length\ height\ loc
+comment2.target=TempControl(double,\ double,\ double,\ Location)
+comment2.text=\r\n\ The\ second\ constructor\ for\ objects\ of\ class\ Standard\r\n
+comment3.params=
+comment3.target=double\ calcPrice()
+comment3.text=\r\n\ Calclates\ the\ standard\ price\ of\ the\ unrented\ unit\ using\ the\ Location's\ base\ price\ and\ a\ rate\ times\ every\ cubic\ foot\ of\ space\r\n\ \r\n\ @return\ \ \ \ a\ double\ for\ the\ standard\ rental\ price\ of\ the\ unit\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ \r\n\ Creates\ and\ returns\ a\ string\ representation\ of\ this\ TempControl\r\n\ \r\n\ @return\ \ a\ String\ showing\ basic\ information\ about\ the\ temperature\ controlled\ unit\r\n
+numComments=5
